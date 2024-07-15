@@ -17,7 +17,7 @@ iface.scan()
 
 timer = 30
 while timer > 0:
-    pymsgbox.alert('Time Remaining:'+ str(timer), 'Scan in Progress', timeout=1100)
+    pymsgbox.alert('Time Remaining: ' + str(timer) + ' seconds', 'Scan in Progress', timeout=1000)
     timer -= 1
 
 results = iface.scan_results()
